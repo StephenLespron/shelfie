@@ -1,19 +1,18 @@
-import React, { forwardRef } from "react";
-import Dashboard from "./components/Dashboard/Dashboard";
-import Form from "./components/Form/Form";
+import React from "react";
+import { HashRouter } from "react-router-dom";
+import Router from "./Router";
 import Header from "./components/Header/Header";
-import Product from "./components/Product/Product";
 import "./App.css";
+import "./reset.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Dashboard />
-      <Form />
-      <Product />
-    </div>
+    <HashRouter>
+      <div className="App">
+        <Header />
+        {Router}
+      </div>
+    </HashRouter>
   );
 }
-
 export default App;

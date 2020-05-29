@@ -1,0 +1,43 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  margin: 100px 0 0 -200px;
+  border-radius: 10px;
+  background-color: rgb(58, 216, 134);
+  padding: 10px 0;
+}
+
+.FormBox {
+  height: calc(100vh-50px);
+  width: calc(100vw- (100vw-100));
+}
+
+input {
+  margin: 0 15px 25px;
+  width: 95%;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.btnBoxForm {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.formImgBox {
+  /* border: 1px solid black; */
+  height: 200px;
+  width: 300px;
+}

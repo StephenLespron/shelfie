@@ -1,0 +1,40 @@
+.Header {
+  height: 50px;
+  width: calc(100vw - (100vw-100));
+  background-color: rgb(171, 42, 25);
+  font-size: 24px;
+}
+
+.Header,
+.Header nav,
+.Header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header nav ul {
+  width: 350px;
+  justify-content: space-evenly;
+  margin-right: 10px;
+}
+
+header {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+header h1 {
+  margin-left: 30px;
+}
+
+.Links {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  padding: 3px 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
